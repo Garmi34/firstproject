@@ -125,3 +125,147 @@ header h3{
     font-size: 0.8rem;
     opacity: 0.6;
 }
+/*BLOC DES CARTES HEVERGEMENTS ET POPULAIRES*/
+.bloc-hebergement{
+    width: 70%;
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+.bloc-populaire{
+    width: 25%;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+
+}
+.bloc-populaire a{
+    text-decoration: none;
+}
+.conteneur-hotel{
+    display: flex;
+    justify-content: space-around;
+}
+.conteneur-hotel h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.conteneur-hotel span a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.6em;
+    color:black;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-bottom: 20px;   
+}
+.ensemble-cartes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.ensemble-cartes a{
+    text-decoration: none;
+}
+.carte-hebergement{
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:5px 10px 10px 5px;
+    background-color: white;
+}
+.carte-hebergement img{
+    border: 0px solid #f2f2f2;
+    border-radius:10px 10px 0 0 ;
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+    
+}
+.carte-hebergement span{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.7em;
+    display: block;
+    margin:1px;
+    color: black;
+}
+.carte-hebergement .nom{
+    font-weight: bold;
+}
+.carte-hebergement .tarif{
+    opacity: 0.5;
+}
+.carte-hebergement .cinq-etoiles{
+    font-size: 0.5em;
+    color: #0065FC;
+    margin: 3px;
+}
+.carte-hebergement .quatre-etoiles{
+    font-size: 0.5em;
+    color: #0065FC;
+    margin: 3px;
+}
+.carte-hebergement .quatre-etoiles i:nth-of-type(5){
+    color: #f2f2f2;
+}
+.carte-hebergement .trois-etoiles{
+    font-size: 0.5em;
+    color: #0065FC;
+    margin: 3px;
+}
+.carte-hebergement .trois-etoiles i:nth-of-type(4),
+.carte-hebergement .trois-etoiles i:nth-of-type(5){
+    color: #f2f2f2;
+}
+
+.carte-pop img{
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+.carte-pop{
+    display:flex;
+    justify-content: center;
+}
+.carte-pop{
+    width: 200px;
+    height: 100px ;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.carte-pop span{
+    display: block;
+    margin: 5px 0 0 5px;
+}
+.carte-pop .nom{
+    font-family: 'Raleway',sans-serif;
+    font-size: 0.7em;
+    color: black;
+    font-weight: bold;
+}
+.carte-pop .tarif{
+    font-family: 'Raleway',sans-serif;
+    font-size: 0.7em;
+    color: black;
+    opacity: 0.5;
+}
+.carte-pop .cinq-etoiles{
+    font-size: 0.5em;
+    color: #0065FC;
+    position: relative;
+    top: 35px;
+    left: 10px;   
+}
+.carte-pop .quatre-etoiles{
+    font-size: 0.5em;
+    color: #0065FC;
+    position: relative;
+    top: 35px;
+    left: 10px;     
+}
+.carte-pop .quatre-etoiles i:nth-of-type(5){
+    color: #f2f2f2; }
