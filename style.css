@@ -1,0 +1,127 @@
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    color: #181818;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+/*HEADER*/
+nav ul{
+    list-style: none;
+}
+nav a{
+    font-size: 0.8em;
+    color:black;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#0065FC;
+}
+nav li:hover{
+    border-top: 1px solid #0065FC;
+}
+.menu a:nth-of-type(3){
+    color: #0065FC;
+}
+.menu li:nth-of-type(3){
+    color: #0065FC;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px 20px 0px 20px;
+    border-top: 1px solid white;
+}
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    font-family: "Raleway", sans-serif;
+    font-size:  1.2rem;
+    font-weight: bold;
+}
+header h2{
+    font-size: 0.8rem;
+    opacity: 0.5;
+
+}
+/*LE FORMULAIRE*/
+.formstyle i{
+    border: 0px solid #f2f2f2;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius:10px 0 0 10px ;
+}
+.formstyle input[type="text"] {
+    border: 0.5px solid #f2f2f2;
+    padding: 5px;
+    
+}
+.formstyle input[type="submit"]{
+    padding: 5px;
+    border: 0.5px solid #f2f2f2;
+    background-color: #0065FC;
+    color: white;
+    font-family: "Raleway", sans-serif ;
+    border-radius: 0 10px 10px 0;
+}
+.formstyle ::-webkit-input-placeholder{
+    font-family: "Raleway", sans-serif ;
+    font-weight: bold;
+    color: #181818;
+}
+.formstyle{
+    display:flex;
+}
+      /* FILTRES */
+.conteneur-filtre{
+    display:flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:20px 0 20px 0px;
+    justify-content: space-between;
+    align-items:center;
+}
+.liste-element{
+    text-decoration: none;
+    border:1.5px solid #f2f2f2 ;
+    padding-right: 15px;
+    border-radius: 50px;
+    background-color: white; 
+    display: flex;
+    align-items: center; 
+}
+a.liste-element:hover{
+    color: white;
+    background-color:#002fff;
+    transition:all 0.2s ease-out;
+}
+a.liste-element:hover .liste-filtre{
+    color:  white;
+}
+.liste-filtre{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: black;
+}
+.conteneur-filtre .icone{
+    color:#0065FC;
+    border: 2px solid #DEEBFF;
+    width: 30px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #DEEBFF ;   
+}
+header h3 i{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+}
+header h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
