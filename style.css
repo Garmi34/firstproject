@@ -243,13 +243,13 @@ header h3{
 }
 .carte-pop .nom{
     font-family: 'Raleway',sans-serif;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     color: black;
     font-weight: bold;
 }
 .carte-pop .tarif{
     font-family: 'Raleway',sans-serif;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     color: black;
     opacity: 0.5;
 }
@@ -268,4 +268,72 @@ header h3{
     left: 10px;     
 }
 .carte-pop .quatre-etoiles i:nth-of-type(5){
-    color: #f2f2f2; }
+    color: #f2f2f2; 
+}
+/* BLOC ACTIVITES*/
+.carte-large{
+    width: 25%;
+    height: 350px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px #f2f2f2;
+}
+.img-large{
+    max-width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px ;
+}
+.carte-column{
+    width: 35%;
+    height: 350px;
+}
+.carte-small{
+    height: 150px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px #f2f2f2;
+}
+.img-small{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px ;
+}
+.haut-carte{
+    height: 180px;
+}
+.img-medium{
+    width: 100%;
+    height:150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px ;
+}
+.conteneur-activite{
+    display: flex;
+}
+.sous-carte-small{
+    margin-top: 50px;
+}
+.sous-carte-extra{
+    margin-top: 20px;
+}
+.img-extrasmall{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px ;
+}
+.conteneur-activite figcaption{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.7em;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+section h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 30px 0px 0px 30px;
+}
