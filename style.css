@@ -157,9 +157,6 @@ header h4{
     justify-content: space-around;
     align-items: baseline;
 }
-.groupe-carte-populaire figcaption{
-    padding: 5px;
-}
 .conteneur-hotel{
     display: flex;
     justify-content: space-around;
@@ -554,7 +551,7 @@ footer h3{
     }
     /* FILTRES */
     .conteneur-filtre{
-        width: 270px;
+        width: 260px;
     }
     header h3{
         width: 100%;
