@@ -157,6 +157,9 @@ header h4{
     justify-content: space-around;
     align-items: baseline;
 }
+.groupe-carte-populaire figcaption{
+    padding: 5px;
+}
 .conteneur-hotel{
     display: flex;
     justify-content: space-around;
@@ -457,7 +460,6 @@ footer h3{
         display: flex;
         justify-content: space-around;
     }
-
 } 
 @media screen and (min-width: 576px) and (max-width: 767.98px){
     /* FILTRES */
@@ -577,17 +579,18 @@ footer h3{
         justify-content: space-between;
         padding-left: 10px;
     }
+    
     .carte-pop figcaption{
-        width: 70% ; 
+        width: 60% ; 
     }
     .carte-pop img{
-        width:30% ;
+        width:40% ;
     }
     .carte-pop .nom{
-        font-size:0.9rem;   
+        font-size:0.8rem;   
     }
     .carte-pop .tarif{
-        font-siz ;
+        font-size: 0.8rem ;
     }
     /* HEBERGEMENTS */
     .bloc-hebergement{
