@@ -408,6 +408,11 @@ footer h3{
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
+    /* L ENTETE */
+    header{
+        padding-left: 10px;
+    }
+    /* LES FILTRES */
     .conteneur-filtre{
         display:flex;
         flex-wrap:wrap;
@@ -419,6 +424,14 @@ footer h3{
 
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
+    .bloc-page{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header{
+        padding-left: 10px;
+
+    }
     /* FILTRES */
     .conteneur-filtre{
         display:flex;
@@ -435,7 +448,6 @@ footer h3{
     /* HEBERGEMENTS */
     .bloc-hebergement{
         width: 100%;
-        margin-left: 15px;
     }
     .groupe-carte-hebergement{
         justify-content: space-around;
@@ -443,12 +455,15 @@ footer h3{
     /* POPULAIRES */
     .bloc-populaire{
         width: 100%;
-        margin-left: 15px;
+    }
+    .carte-pop{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .titre-bloc{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 96%;
     }
     .bloc-populaire h3{
         margin-left: 5px;
@@ -457,8 +472,12 @@ footer h3{
         display: flex;
         justify-content: space-around;
     }
+    
 } 
 @media screen and (min-width: 576px) and (max-width: 767.98px){
+    header{
+        padding-left: 10px;
+    }
     /* FILTRES */
     .conteneur-filtre{
         flex-wrap: nowrap;
@@ -505,6 +524,10 @@ footer h3{
     }
     .logo{
         align-self: flex-start;
+    }
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .sinscrire{
         position:absolute;
@@ -555,6 +578,10 @@ footer h3{
     }
     header h3{
         width: 100%;
+    }
+    .liste-element{
+        margin-bottom: 10px;
+
     }
     /* BLOC HEBERGEMENTS ET POPULAIRES */
         
